@@ -427,7 +427,7 @@ module.exports = function (grunt) {
       },
       pages: {
         options: {
-          remote: 'https://github.com/dthgs/dthgs.github.io.git',
+          remote: 'https://github.com/dthgs/cv.git',
           branch: 'gh-pages'
         }
       },
