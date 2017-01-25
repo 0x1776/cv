@@ -44,10 +44,6 @@ p {
     letter-spacing: 1;
 }
 
-ul {
-  list-style: none;
-}
-
 .app {
   background: url(../images/esjan-winter.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -85,10 +81,8 @@ ul {
 }
 
 .tab-box {
-  //width: 80%;
-  width: 800px;
-  height: 600px;
-    background: rgba(0,0,0,0.4);
+  width: 700px;
+  background: rgba(0,0,0,0.4);
   margin-top: 15px;
   margin-bottom: 15px;
   color: white;
@@ -159,9 +153,16 @@ ul {
 .lb-proj {
   //width: 500px;
   border-top: 1px solid white;
-  padding-bottom: 30px;
+  padding: 10px;
+  //padding-top: 20px;
   margin-left: auto;
-  margin-right: auto;}
+  margin-right: auto;
+}
+
+.dsc-proj {
+  padding-bottom: 15px;
+  margin: auto;
+}
 
 .formContainer {
   width: 350px;
@@ -170,19 +171,13 @@ ul {
 }
 
 .imgContainer {
-  //overflow: hidden;
-
-  //width: 200px;
-  //height: 180px;
-  //border: 1px solid red;
-  //padding: 50px;
-    //float: right;
-  width: 200px;
-  height: 100px;
-  margin: 10px;
-  border: 1px solid white;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  border: 1px solid white;
+  width: 200px;
+  height: 100px;
+  padding: 50px;
+  margin: 5px;
 }
