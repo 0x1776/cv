@@ -11,7 +11,7 @@ table {
 }
 
 table, th, td {
-  border: 1px solid white;
+  //border: 1px solid white;
   color: white;
   border-collapse: collapse;
 }
@@ -87,7 +87,7 @@ ul {
 .tab-box {
   //width: 80%;
   width: 800px;
-  height: 680px;
+  height: 600px;
     background: rgba(0,0,0,0.4);
   margin-top: 15px;
   margin-bottom: 15px;
@@ -155,6 +155,13 @@ ul {
   border-top: 1px solid white;
   margin: 0 auto;
 }
+
+.lb-proj {
+  //width: 500px;
+  border-top: 1px solid white;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;}
 
 .formContainer {
   width: 350px;
